@@ -1,0 +1,30 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_60",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "marketing_001",
+   "system_id": "marketing_platform",
+   "category": "MARKETING_PROFILE",
+   "state": "PRESENT",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "sj.park@naver.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [
+     "+82 10-5837-9451"
+    ],
+    "names": [
+     "Soo-jin Park"
+    ]
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

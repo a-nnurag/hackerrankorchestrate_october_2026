@@ -1,0 +1,26 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_46",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "object_19",
+   "system_id": "object_storage",
+   "category": "SUPPORT_ATTACHMENT",
+   "state": "PRESENT",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [],
+    "user_ids": [],
+    "hashes": [
+     "checksum e71b6d... (truncated)"
+    ],
+    "phones": [],
+    "names": []
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

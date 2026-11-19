@@ -1,0 +1,26 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_32",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "backup_9287",
+   "system_id": "backup_service",
+   "category": "BACKUP_ARCHIVE",
+   "state": "ACTIVE",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "areed1433@gmail.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [],
+    "names": []
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": "backup console shows no restore flag; archive listed with retention end after audit_at, so restorable by default (assumption)"
+  }
+ ]
+}

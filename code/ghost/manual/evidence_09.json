@@ -1,0 +1,30 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_09",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "search_428",
+   "system_id": "search_service",
+   "category": "SEARCH_INDEX_ENTRY",
+   "state": "PRESENT",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "g.silva76@gmail.com"
+    ],
+    "user_ids": [
+     "user_13"
+    ],
+    "hashes": [],
+    "phones": [],
+    "names": [
+     "Gabriel Silva"
+    ]
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

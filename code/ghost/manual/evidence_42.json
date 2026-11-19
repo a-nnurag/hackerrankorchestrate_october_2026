@@ -1,0 +1,26 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_42",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "tombstone_17",
+   "system_id": "identity_service",
+   "category": "ACCOUNT_TOMBSTONE",
+   "state": "REDACTED",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [],
+    "user_ids": [
+     "user_17"
+    ],
+    "hashes": [],
+    "phones": [],
+    "names": []
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

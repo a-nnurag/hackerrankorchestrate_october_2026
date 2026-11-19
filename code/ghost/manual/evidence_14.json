@@ -1,0 +1,26 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_14",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "data_flow_1121",
+   "system_id": "integration_service",
+   "category": "DATA_FLOW",
+   "state": "ACTIVE",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "jain.aditi@gmail.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [],
+    "names": []
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

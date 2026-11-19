@@ -1,0 +1,26 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_23",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "export_1260",
+   "system_id": "export_service",
+   "category": "USER_EXPORT",
+   "state": "PRESENT",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "ingrid.dahl@outlook.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [],
+    "names": []
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

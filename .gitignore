@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Local cache and secrets
+code/.cache/
+.env
+
+# Challenge data (owned by HackerRank; get it from the official repo)
+dataset/
+
+# Submission bundles and session transcripts
+*.zip
+log.txt
+submission/
+agent-trace/
+
+# Challenge harness files
+AGENTS.md
+CLAUDE.md
+agent_trace_instructions.md
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

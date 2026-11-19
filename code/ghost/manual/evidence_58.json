@@ -1,0 +1,30 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_58",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "support_001",
+   "system_id": "support_platform",
+   "category": "SUPPORT_ATTACHMENT",
+   "state": "PRESENT",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "priya.raman@gmail.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [
+     "+91 98765 73142"
+    ],
+    "names": [
+     "Priya Raman"
+    ]
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

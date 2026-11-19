@@ -1,0 +1,29 @@
+{
+ "$schema": "manual_transcription.v1",
+ "file_id": "evidence_28",
+ "transcribed_by": "vision-model reading of the image/PDF, ids/emails cross-checked against user_identities, user_audit_log, system_activity (see docs/05)",
+ "entries": [
+  {
+   "resource_id": "support_1034",
+   "system_id": "support_platform",
+   "category": "SUPPORT_MESSAGE",
+   "state": "IDENTIFIABLE",
+   "observed_at": null,
+   "identifiers": {
+    "emails": [
+     "kagyeman8947@fastmail.com"
+    ],
+    "user_ids": [],
+    "hashes": [],
+    "phones": [],
+    "names": [
+     "Kofi Agyeman",
+     "Maya Chen"
+    ]
+   },
+   "locator": "selected_detail",
+   "confidence": "MODEL_TRANSCRIBED_CROSS_CHECKED",
+   "note": ""
+  }
+ ]
+}

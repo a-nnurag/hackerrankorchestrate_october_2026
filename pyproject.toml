@@ -1,0 +1,40 @@
+# Project metadata and code-quality configuration.
+# The solution itself needs only the Python standard library (3.10 or newer); the tools below are development-time only:
+#   python -m pip install ruff radon vulture mypy
+#   python -m ruff check code            # lint
+#   python -m ruff format --check code   # formatting
+#   python -m radon cc code -s -n C      # cyclomatic complexity, rank C or worse
+#   python -m mypy code/ghost            # types of the core package
+[project]
+name = "ghost-data-audit"
+version = "1.0.0"
+description = "Deletion-audit agent for the Ghost Data Still Exists challenge: decides whether a deletion is complete and plans the steps."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["dataset", "docs", "code/.cache"]
+
+[tool.ruff.lint]
+# E/W pycodestyle, F pyflakes, B bugbear, N naming, UP pyupgrade, SIM simplifications, C90 complexity,
+# D1 missing docstrings, I import order
+select = ["E", "W", "F", "B", "N", "UP", "SIM", "C90", "D1", "I"]
+ignore = ["D203", "D213", "D107", "D105"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.per-file-ignores]
+# development tooling and tests: module docstrings are required, but function docstrings and test-style naming are relaxed
+"code/evaluation/*" = ["D102", "D103", "D101", "D100", "N802", "N803", "N806", "C901", "SIM115", "E402"]
+"code/main.py" = ["E402"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_ignores = true

@@ -1,0 +1,19 @@
+{
+ "activity_edges": {
+  "n": 58,
+  "sha256": "669d9bfd78099cf7090476f1d31615b8501bcf97daf7a41d65427bea629fa884"
+ },
+ "coverage": {
+  "n": 558,
+  "sha256": "da03cabcac55b57ba691401401c566c9604e042edae73e03bfaeec8cd2edaaf2"
+ },
+ "observations": {
+  "n": 2921,
+  "sha256": "72a3d984852a49b8e39e43c085952febe54950791c8876f2e6e8f254e7518b4a"
+ },
+ "output_csv_sha256": "24e310cb34ad2fdb52409478f5d58671c990671163f8552972a6006d7d27e705",
+ "results": {
+  "n": 550,
+  "sha256": "071f0016a473e6e79c0c1e420fee9d5be79fde9f85fb708d9e473cd34beb81e5"
+ }
+}
